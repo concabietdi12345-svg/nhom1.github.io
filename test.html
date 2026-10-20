@@ -1,0 +1,382 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website học tập</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #263247;
+            background: linear-gradient(120deg, #f3f5a1, #d6edc0, #a9e8ed);
+            min-height: 100vh;
+        }
+
+        nav {
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px 20px;
+            padding: 18px 22px;
+            background: #25245f;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 0 18px;
+        }
+
+        h1 {
+            font-size: 30px;
+        }
+
+        .lesson {
+            margin-bottom: 20px;
+            padding: 22px;
+            background: white;
+            border-radius: 14px;
+            box-shadow: 0 5px 15px #0002;
+            scroll-margin-top: 90px;
+        }
+
+        .lesson h2 {
+            margin-top: 0;
+            font-size: 21px;
+        }
+
+        button {
+            padding: 11px 16px;
+            color: white;
+            background: #25245f;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        button:hover {
+            background: #393782;
+        }
+
+        .content {
+            margin-top: 16px;
+            padding-top: 14px;
+            border-top: 1px solid #ddd;
+            line-height: 1.7;
+        }
+
+        .content[hidden] {
+            display: none;
+        }
+
+        footer {
+            padding: 20px;
+            text-align: center;
+        }
+
+        @media (max-width: 600px) {
+            nav {
+                padding: 15px;
+                gap: 12px;
+            }
+
+            main {
+                margin-top: 22px;
+            }
+
+            .lesson {
+                padding: 17px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<nav>
+    <a href="#top">Đầu trang</a>
+    <a href="#bai3">Bài 3</a>
+    <a href="#bai4">Bài 4</a>
+    <a href="#bai5">Bài 5</a>
+    <a href="#bai6">Bài 6</a>
+    <a href="#bai7">Bài 7</a>
+    <a href="#bai8">Bài 8</a>
+    <a href="#bai9">Bài 9</a>
+    <a href="#bai10">Bài 10</a>
+    <a href="#bai11">Bài 11</a>
+    <a href="#bai12">Bài 12</a>
+    <a href="#bai13">Bài 13</a>
+    <a href="#bai14">Bài 14</a>
+    <a href="#bai15">Bài 15</a>
+    <a href="#bai16">Bài 16</a>
+    <a href="#bai17">Bài 17</a>
+    <a href="#bai18">Bài 18</a>
+    <a href="#bai19">Bài 19</a>
+    <a href="#bai20">Bài 20</a>
+    <a href="#bai21">Bài 21</a>
+    <a href="#bai22">Bài 22</a>
+    <a href="#bai23">Bài 23</a>
+    <a href="#bai24">Bài 24</a>
+    <a href="#bai25">Bài 25</a>
+    <a href="#bai26">Bài 26</a>
+    <a href="#bai27">Bài 27</a>
+    <a href="#bai28">Bài 28</a>
+</nav>
+
+<main id="top">
+    <h1>Website học tập</h1>
+    <p>Chọn bài học và nhấn nút để xem nội dung.</p>
+
+    <section class="lesson" id="bai3">
+        <h2>Bài 3</h2>
+        <button type="button">Hiện nội dung</button>
+        <div class="content" hidden>
+            <p><strong>Nội dung Bài 3:</strong> Thêm đề bài tại đây.</p>
+        </div>
+    </section>
+
+    <section class="lesson" id="bai4">
+        <h2>Bài 4</h2>
+        <button type="button">Hiện nội dung</button>
+        <div class="content" hidden>
+            <p><strong>Nội dung Bài 4:</strong> Thêm đề bài tại đây.</p>
+        </div>
+    </section>
+
+    <section class="lesson" id="bai5">
+        <h2>Bài 5</h2>
+        <button type="button">Hiện nội dung</button>
+        <div class="content" hidden>
+            <p><strong>Nội dung Bài 5:</strong> Thêm đề bài tại đây.</p>
+        </div>
+    </section>
+
+    <section class="lesson" id="bai6">
+        <h2>Bài 6</h2>
+        <button type="button">Hiện nội dung</button>
+        <div class="content" hidden>
+            <p><strong>Nội dung Bài 6:</strong> Thêm đề bài tại đây.</p>
+        </div>
+    </section>
+
+    <section class="lesson" id="bai7">
+        <h2>Bài 7</h2>
+        <button type="button">Hiện nội dung</button>
+        <div class="content" hidden>
+            <p><strong>Nội dung Bài 7:</strong> Thêm đề bài tại đây.</p>
+        </div>
+    </section>
+
+    <section class="lesson" id="bai8">
+        <h2>Bài 8</h2>
+        <button type="button">Hiện nội dung</button>
+        <div class="content" hidden>
+            <p><strong>Nội dung Bài 8:</strong> Thêm đề bài tại đây.</p>
+        </div>
+    </section>
+
+    <section class="lesson" id="bai9">
+        <h2>Bài 9</h2>
+        <button type="button">Hiện nội dung</button>
+        <div class="content" hidden>
+            <p><strong>Nội dung Bài 9:</strong> Thêm đề bài tại đây.</p>
+        </div>
+    </section>
+
+    <section class="lesson" id="bai10">
+        <h2>Bài 10</h2>
+        <button type="button">Hiện nội dung</button>
+        <div class="content" hidden>
+            <p><strong>Nội dung Bài 10:</strong> Thêm đề bài tại đây.</p>
+        </div>
+    </section>
+
+    <section class="lesson" id="bai11">
+        <h2>Bài 11</h2>
+        <button type="button">Hiện nội dung</button>
+        <div class="content" hidden>
+            <p><strong>Nội dung Bài 11:</strong> Thêm đề bài tại đây.</p>
+        </div>
+    </section>
+
+    <section class="lesson" id="bai12">
+        <h2>Bài 12</h2>
+        <button type="button">Hiện nội dung</button>
+        <div class="content" hidden>
+            <p><strong>Nội dung Bài 12:</strong> Thêm đề bài tại đây.</p>
+        </div>
+    </section>
+
+    <section class="lesson" id="bai13">
+        <h2>Bài 13</h2>
+        <button type="button">Hiện nội dung</button>
+        <div class="content" hidden>
+            <p><strong>Nội dung Bài 13:</strong> Thêm đề bài tại đây.</p>
+        </div>
+    </section>
+
+    <section class="lesson" id="bai14">
+        <h2>Bài 14</h2>
+        <button type="button">Hiện nội dung</button>
+        <div class="content" hidden>
+            <p><strong>Nội dung Bài 14:</strong> Thêm đề bài tại đây.</p>
+        </div>
+    </section>
+
+    <section class="lesson" id="bai15">
+        <h2>Bài 15</h2>
+        <button type="button">Hiện nội dung</button>
+        <div class="content" hidden>
+            <p><strong>Nội dung Bài 15:</strong> Thêm đề bài tại đây.</p>
+        </div>
+    </section>
+
+    <section class="lesson" id="bai16">
+        <h2>Bài 16</h2>
+        <button type="button">Hiện nội dung</button>
+        <div class="content" hidden>
+            <p><strong>Nội dung Bài 16:</strong> Thêm đề bài tại đây.</p>
+        </div>
+    </section>
+
+    <section class="lesson" id="bai17">
+        <h2>Bài 17</h2>
+        <button type="button">Hiện nội dung</button>
+        <div class="content" hidden>
+            <p><strong>Nội dung Bài 17:</strong> Thêm đề bài tại đây.</p>
+        </div>
+    </section>
+
+    <section class="lesson" id="bai18">
+        <h2>Bài 18</h2>
+        <button type="button">Hiện nội dung</button>
+        <div class="content" hidden>
+            <p><strong>Nội dung Bài 18:</strong> Thêm đề bài tại đây.</p>
+        </div>
+    </section>
+
+    <section class="lesson" id="bai19">
+        <h2>Bài 19</h2>
+        <button type="button">Hiện nội dung</button>
+        <div class="content" hidden>
+            <p><strong>Nội dung Bài 19:</strong> Thêm đề bài tại đây.</p>
+        </div>
+    </section>
+
+    <section class="lesson" id="bai20">
+        <h2>Bài 20</h2>
+        <button type="button">Hiện nội dung</button>
+        <div class="content" hidden>
+            <p><strong>Nội dung Bài 20:</strong> Thêm đề bài tại đây.</p>
+        </div>
+    </section>
+
+    <section class="lesson" id="bai21">
+        <h2>Bài 21</h2>
+        <button type="button">Hiện nội dung</button>
+        <div class="content" hidden>
+            <p><strong>Nội dung Bài 21:</strong> Thêm đề bài tại đây.</p>
+        </div>
+    </section>
+
+    <section class="lesson" id="bai22">
+        <h2>Bài 22</h2>
+        <button type="button">Hiện nội dung</button>
+        <div class="content" hidden>
+            <p><strong>Nội dung Bài 22:</strong> Thêm đề bài tại đây.</p>
+        </div>
+    </section>
+
+    <section class="lesson" id="bai23">
+        <h2>Bài 23</h2>
+        <button type="button">Hiện nội dung</button>
+        <div class="content" hidden>
+            <p><strong>Nội dung Bài 23:</strong> Thêm đề bài tại đây.</p>
+        </div>
+    </section>
+
+    <section class="lesson" id="bai24">
+        <h2>Bài 24</h2>
+        <button type="button">Hiện nội dung</button>
+        <div class="content" hidden>
+            <p><strong>Nội dung Bài 24:</strong> Thêm đề bài tại đây.</p>
+        </div>
+    </section>
+
+    <section class="lesson" id="bai25">
+        <h2>Bài 25</h2>
+        <button type="button">Hiện nội dung</button>
+        <div class="content" hidden>
+            <p><strong>Nội dung Bài 25:</strong> Thêm đề bài tại đây.</p>
+        </div>
+    </section>
+
+    <section class="lesson" id="bai26">
+        <h2>Bài 26</h2>
+        <button type="button">Hiện nội dung</button>
+        <div class="content" hidden>
+            <p><strong>Nội dung Bài 26:</strong> Thêm đề bài tại đây.</p>
+        </div>
+    </section>
+
+    <section class="lesson" id="bai27">
+        <h2>Bài 27</h2>
+        <button type="button">Hiện nội dung</button>
+        <div class="content" hidden>
+            <p><strong>Nội dung Bài 27:</strong> Thêm đề bài tại đây.</p>
+        </div>
+    </section>
+
+    <section class="lesson" id="bai28">
+        <h2>Bài 28</h2>
+        <button type="button">Hiện nội dung</button>
+        <div class="content" hidden>
+            <p><strong>Nội dung Bài 28:</strong> Thêm đề bài tại đây.</p>
+        </div>
+    </section>
+</main>
+
+<footer>Website học tập cá nhân</footer>
+
+<script>
+    const buttons = document.querySelectorAll(".lesson button");
+
+    buttons.forEach(function(button) {
+        button.addEventListener("click", function() {
+            const content = button.nextElementSibling;
+            const isOpening = content.hidden;
+
+            content.hidden = !isOpening;
+            button.textContent = isOpening
+                ? "Ẩn nội dung"
+                : "Hiện nội dung";
+        });
+    });
+</script>
+
+</body>
+</html>
